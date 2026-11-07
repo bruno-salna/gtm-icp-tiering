@@ -110,6 +110,6 @@ Input columns that don't map to the schema are kept at the end of the file, with
 |---|---|---|
 | List quality | `quality_` | see above |
 | ICP + tiering | `icp_`, `tier` | see above |
-| Signals | `signal_` | `signal_type`, `signal_date`, `signal_note` |
+| Signals | `signal_` | `signal_priority`, `signal_top_type`, `signal_why_now`; full list in its [schema](https://github.com/bruno-salna/gtm-signals/blob/main/schema.md) |
 | Orchestrator | `run_` | `run_id`, `run_step` |
 | (input columns) | `src_` | kept as they came, see above |
